@@ -1,0 +1,6 @@
+{
+  "name": "Larian Kejiranan - Pemanas Badan 3D",
+  "description": "Video pemanas badan interaktif 3D bertajuk Larian Kejiranan dalam gaya kartun Boboiboy 3D yang ceria dari sudut pandang orang pertama untuk murid Tahun 5.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Fredoka', 'Plus Jakarta Sans', system-ui, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    overflow: hidden;
+    background-color: #0f172a;
+    color: #f8fafc;
+  }
+}
+
+/* Custom rounded cartoon glow & styling */
+.cartoon-border {
+  border: 4px solid #1e293b;
+  box-shadow: 0 8px 0 #0f172a, 0 12px 24px rgba(0,0,0,0.25);
+}
+
+.cartoon-btn {
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.cartoon-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #0f172a !important;
+}
